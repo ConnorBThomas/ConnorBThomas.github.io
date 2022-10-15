@@ -1,0 +1,47 @@
+img.cat{
+  height: 300px;
+}
+
+main{
+  background-color: purple;
+  color: #0affd6
+}
+body{
+  background: url(images/background.jpg);
+  background-size: cover;
+}
+
+#wrapper{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.list1{
+  list-style-image: url("images/batman.png");
+}
+
+.list2{
+  list-style-image: url("images/superman.png");
+}
+
+.list3{
+  list-style-image: url("images/flash.png");
+}
+
+.list4{
+  list-style-image: url("images/daredevil.png");
+}
+
+.list5{
+  list-style-image: url("images/spiderman.png");
+}
+
+.specialborder{
+border-image-slice: 13 13 13 13;
+border-image-width: 13px 13px 13px 13px;
+border-image-outset: 13px 13px 13px 13px;
+border-image-repeat: repeat repeat;
+border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-4.png");
+border-style: solid;
+}
